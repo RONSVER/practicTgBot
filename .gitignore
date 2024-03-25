@@ -18,6 +18,47 @@
 .env.test.local
 .env.production.local
 
+
+# Папки и файлы, созданные Yarn
+/yarn.lock
+
+# Папка сборки
+/build
+
+# Папка временных файлов
+/.temp
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Файлы с логами
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# История команд в терминале
+.history
+
+# Файлы конфигурации редакса
+/store
+
+# Файлы настроек IDE
+.idea
+.vscode
+
+# Файлы настроек для редакса
+*.redux
+
+# Файлы локализации
+*.pot
+*.po
+*.mo
+
+# Файлы резервных копий
+*.bak
+*.backup
+*.swp
