@@ -1,15 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postMsgTgReducer from "./slices/postMsgTgSlice";
-import getMsgTgReducer from "./slices/getMsgTgSlice";
-import dataArchiveReducer from "./slices/dataArchiveSlice";
-import postPhotoTgReducer from "./slices/postPhotoTgSlice";
+import usrNameFirebaseReducer from "./slices/usrNameFirebaseSlice";
+import usrDateFirebaseReducer from "./slices/usrDateFirebaseSlice";
 
 const store = configureStore({
   reducer: {
-    postMsgTg: postMsgTgReducer,
-    getMsgTg: getMsgTgReducer,
-    dataArchive: dataArchiveReducer,
-    postPhotoTg: postPhotoTgReducer,
+    usrNameFirebase: usrNameFirebaseReducer,
+    usrDateFirebase: usrDateFirebaseReducer,
   },
 });
 
